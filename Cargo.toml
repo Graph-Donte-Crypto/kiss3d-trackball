@@ -30,9 +30,9 @@ include = [
 travis-ci = { repository = "qu1x/kiss3d-trackball" }
 
 [dependencies]
-kiss3d = "0.31"
+kiss3d = {git = "https://github.com/Graph-Donte-Crypto/kiss3d"}
 nalgebra = "0.26"
-trackball = "0.5"
+trackball = {git = "https://github.com/Graph-Donte-Crypto/trackball"}
 
 [features]
 cc = ["trackball/cc"]
